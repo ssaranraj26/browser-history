@@ -1,0 +1,53 @@
+.history-item-container {
+  display: flex;
+  align-items: center;
+}
+.time {
+  font-size: 14px;
+  color: #475569;
+}
+.domain-title-container {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #475569;
+  font-weight: 500;
+}
+.domain-logo {
+  width: 35px;
+  height: 35px;
+  margin: 15px;
+  margin-left: 0px;
+  align-self: flex-start;
+}
+.delete-icon {
+  margin-left: auto;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  li {
+    display: flex;
+  }
+  .time {
+    font-size: 18px;
+    width: 100px;
+  }
+  .history-item-container {
+    margin-left: 40px;
+    width: 100%;
+  }
+  .domain-title-container {
+    display: flex;
+    align-items: center;
+  }
+  .domain-url {
+    font-size: 14px;
+    color: #64748b;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .delete-icon {
+    margin-left: auto;
+  }
+}
